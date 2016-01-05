@@ -4,7 +4,7 @@ Compiling:
 ---------
 
     ## downloading the dependencies
-    wget http://www.monperrus.net/martin/lib-njrams.jar
+    wget http://sachaproject.gforge.inria.fr/lib-njrams.jar
     mkdir bin
     ## compiling 
     javac -d bin -cp lib-njrams.jar `find src -name "*java"`
